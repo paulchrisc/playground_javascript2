@@ -385,26 +385,27 @@ GOOD LUCK */
 
 /*
 Coding Challenge #3
-Let's go back to Mark and John comparing their BMIs! This time, let's use objects to 
-implement the calculations! Remember: BMI = mass / height ** 2 = mass 
+Let's go back to Mark and John comparing their BMIs! This time, let's use objects to
+implement the calculations! Remember: BMI = mass / height ** 2 = mass
 / (height * height) (mass in kg and height in meter)
 Your tasks:
-1. For each of them, create an object with properties for their full name, mass, and 
+1. For each of them, create an object with properties for their full name, mass, and
 height (Mark Miller and John Smith)
-2. Create a 'calcBMI' method on each object to calculate the BMI (the same 
-method on both objects). Store the BMI value to a property, and also return it 
+2. Create a 'calcBMI' method on each object to calculate the BMI (the same
+method on both objects). Store the BMI value to a property, and also return it
 from the method
-3. Log to the console who has the higher BMI, together with the full name and the 
+3. Log to the console who has the higher BMI, together with the full name and the
 respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 
 
-Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m 
+Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 tall.
 
 
 GOOD LUCK � */
 
 
+/*
 const mark = {
     firstName: 'Mark',
     lastName: 'Miller',
@@ -447,4 +448,85 @@ if (john.bmi > mark.bmi) {
     console.log(`${john.firstName} ${john.lastName}'s BMI (${john.bmi}) is higher than ${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi})`)
 } else {
     console.log(`${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}) is higher than ${john.firstName} ${john.lastName}'s BMI (${john.bmi})`)
+}
+*/
+
+//for loop keeps running while condition is TRUE
+
+// for (let rep = 1; rep <= 30; rep++) {
+//     console.log(`Count ${rep}`);
+// }
+
+
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'],
+//     true,
+// ];
+
+// const types = [];
+
+// for (let i = 0; i < jonasArray.length; i++) {
+//     console.log(jonasArray[i], typeof jonasArray[i]);
+
+//     // types[i] = typeof jonasArray[i];
+//     types.push(typeof jonasArray[i])
+// }
+
+
+// console.log(types);
+
+
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+
+
+// for (let i = 0; i < years.length; i++) {
+//     ages.push(2037 - years[i])
+// }
+
+// console.log(ages);
+
+
+// //continue and break
+
+
+
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven'],
+//     true,
+// ];
+
+// const types = [];
+
+// for (let i = 0; i < jonasArray.length; i++) {
+//     if (typeof jonasArray[i] !== 'string') continue;
+
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }
+
+// for (let i = 0; i < jonasArray.length; i++) {
+//     if (typeof jonasArray[i] === 'number') break;
+
+//     console.log(jonasArray[i], typeof jonasArray[i])
+// }
+
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    true,
+];
+
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+    console.log(i, jonasArray[i]);
 }
