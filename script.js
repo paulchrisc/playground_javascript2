@@ -432,7 +432,7 @@ const john = {
 
 
 
-if (john.calcBMI() < mark.calcBMI()) {
+if (john.calcBMI() > mark.calcBMI()) {
     console.log(`${john.firstName} ${john.lastName}'s BMI (${john.calcBMI()}) is higher than ${mark.firstName} ${mark.lastName}'s BMI (${mark.calcBMI()})`)
 } else {
     console.log(`${mark.firstName} ${mark.lastName}'s BMI (${mark.calcBMI()}) is higher than ${john.firstName} ${john.lastName}'s BMI (${john.calcBMI()})`)
@@ -443,7 +443,7 @@ if (john.calcBMI() < mark.calcBMI()) {
 mark.calcBMI();
 john.calcBMI();
 
-if (john.bmi < mark.bmi) {
+if (john.bmi > mark.bmi) {
     console.log(`${john.firstName} ${john.lastName}'s BMI (${john.bmi}) is higher than ${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi})`)
 } else {
     console.log(`${mark.firstName} ${mark.lastName}'s BMI (${mark.bmi}) is higher than ${john.firstName} ${john.lastName}'s BMI (${john.bmi})`)
