@@ -594,6 +594,7 @@ GOOD LUCK
 */
 
 
+/*
 const calcTip = function (bill) {
     return bill <= 300 && bill >= 50 ? bill * .15 : bill * .2;
 
@@ -602,6 +603,9 @@ const calcTip = function (bill) {
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
+const averagebills = [];
+const averagetips = [];
+const averagetotals = [];
 
 for (let i = 0; i < bills.length; i++) {
     const tip = calcTip(bills[i])
@@ -617,9 +621,13 @@ const calcAverage = function (arr) {
     for (let i = 0; i < arr.length; i++) {
         sum += arr[i];
     }
-    return sum / arr.length
+    const average = sum / arr.length;
+    return average
+
 
 }
-
+console.log(calcAverage(bills))
 console.log(calcAverage(totals))
 console.log(calcAverage(tips))
+
+*/
