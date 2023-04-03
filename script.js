@@ -631,3 +631,41 @@ console.log(calcAverage(totals))
 console.log(calcAverage(tips))
 
 */
+
+
+// function howMuchWater(water, load, clothes) {
+//     // Check if clothes amount is less than load amount
+//     if (clothes < load) {
+//       return 'Not enough clothes';
+//     }
+  
+//     // Calculate max_load based on the load amount
+//     var max_load = load * 2;
+  
+//     // Check if clothes amount is more than 2 times the max_load amount
+//     if (clothes > max_load * 2) {
+//       return 'Too much clothes';
+//     }
+  
+//     // Calculate the amount of water needed
+//     var water_needed = water * Math.pow(1.1, clothes - max_load);
+  
+//     // Round the result to 2 decimal places
+//     water_needed = Math.round(water_needed * 100) / 100;
+  
+//     return water_needed;
+//   }
+  
+//   // Example usage:
+//   console.log(howMuchWater(5, 20, 11));
+
+
+// function evenOrOdd(number) {
+//     if(number % 2 == 0){
+//       return "Even"
+//     }else{
+//     return "Odd"
+//     }
+//   }
+  
+//   console.log(3)
